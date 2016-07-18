@@ -1,6 +1,6 @@
 {
   "name": "ml-disjoint-set",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Efficient disjoint-set data structure implementation",
   "main": "./src/DisjointSet.js",
   "files": [
