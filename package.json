@@ -9,7 +9,9 @@
   "scripts": {
     "eslint": "eslint src test",
     "eslint-fix": "npm run eslint -- --fix",
-    "test": "npm run test-mocha && npm run eslint",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
+    "test": "npm run test-mocha && npm run eslint && npm run prettier",
     "test-mocha": "mocha --require should --reporter mocha-better-spec-reporter"
   },
   "repository": {
@@ -30,11 +32,11 @@
   },
   "homepage": "https://github.com/mljs/disjoint-set#readme",
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-config-cheminfo": "^1.0.0",
-    "eslint-plugin-no-only-tests": "^1.1.0",
-    "mocha": "^2.5.3",
-    "mocha-better-spec-reporter": "^3.0.2",
-    "should": "^10.0.0"
+    "eslint": "^8.10.0",
+    "eslint-config-cheminfo": "^7.2.2",
+    "mocha": "^9.2.1",
+    "mocha-better-spec-reporter": "^3.1.0",
+    "prettier": "^2.5.1",
+    "should": "^13.2.3"
   }
 }
