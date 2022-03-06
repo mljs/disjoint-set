@@ -1,9 +1,8 @@
 # Changelog
 
-<a name="1.0.0"></a>
+### [1.0.1](https://github.com/mljs/disjoint-set/compare/v1.0.0...v1.0.1) (2022-03-06)
 
-# 1.0.0 (2016-07-18)
 
-### Features
+### Bug Fixes
 
-- initial release ([9b75eb1](https://github.com/mljs/disjoint-set/commit/9b75eb1))
+* add missing dev dependency ([46ebb66](https://github.com/mljs/disjoint-set/commit/46ebb660a83a633826e772296e9629c2429682ce))
